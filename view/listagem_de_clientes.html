@@ -9,11 +9,11 @@
 
 <style>
 
-      body {background-color: rgb(168, 245, 245); 
+      body {background-color: rgb(234, 243, 243);)
        font-family: Arial, Helvetica, sans-serif;}
 
        table{background-color: white;}
-    p {font-size: larger; background-color: thistle;}
+    p {font-size: larger; background-color: rgb(241, 235, 241);}
 
        </style>
 <br>
@@ -27,6 +27,7 @@
             <th>Nome</th>
             <th>E-mail</th>
             <th>Telefone</th>
+            <th>Situação</th>
             <th>Status</th>
         </tr>
         <tr>
@@ -34,7 +35,15 @@
             <td>João da Silva</td>
             <td>joao.silva@email.com</td>
             <td>(11) 99999-9999</td>
-            <td>Ativo</td>
+            <td><select >
+                <option value="ativo">Ativo</option>
+                <option value="inativo">Inativo</option>
+            </select></td>
+            <td> <select>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="ruim">Ruim</option>
+            </select></td>
 
         </tr>
         <tr>
@@ -42,14 +51,30 @@
             <td>Maria Oliveira</td>
             <td>maria.oliveira@email.com</td>
             <td>(11) 88888-8888</td>
-            <td>Inativo</td>
+            <td> <select >
+                <option value="ativo">Ativo</option>
+                <option value="inativo">Inativo</option>
+            </select></td>
+            <td> <select>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="ruim">Ruim</option>
+            </select></td>
         </tr>
         <tr>
            <td>003</td> 
            <td>Carlos Santos</td>    
            <td>carlos.santos@email.com</td>
            <td>(11) 77777-7777</td>
-           <td>Ativo</td>
+           <td><select >
+                <option value="ativo">Ativo</option>
+                <option value="inativo">Inativo</option>
+            </select></td>
+            <td> <select>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="ruim">Ruim</option>
+            </select></td>
         </tr>
 
     </table>
